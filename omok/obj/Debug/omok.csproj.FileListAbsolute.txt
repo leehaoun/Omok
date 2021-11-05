@@ -1,0 +1,15 @@
+C:\Users\holee\source\repos\omok\omok\bin\Debug\omok.exe.config
+C:\Users\holee\source\repos\omok\omok\bin\Debug\omok.exe
+C:\Users\holee\source\repos\omok\omok\bin\Debug\omok.pdb
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok.csproj.AssemblyReference.cache
+C:\Users\holee\source\repos\omok\omok\obj\Debug\MainWindow.g.cs
+C:\Users\holee\source\repos\omok\omok\obj\Debug\App.g.cs
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok_MarkupCompile.cache
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok_MarkupCompile.lref
+C:\Users\holee\source\repos\omok\omok\obj\Debug\MainWindow.baml
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok.g.resources
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok.Properties.Resources.resources
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok.csproj.GenerateResource.cache
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok.csproj.CoreCompileInputs.cache
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok.exe
+C:\Users\holee\source\repos\omok\omok\obj\Debug\omok.pdb

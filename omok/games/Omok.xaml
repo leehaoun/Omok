@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="Games.Omok"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Games"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="600">
+    <Grid Background="LightGreen">
+        <ItemsControl ItemsSource="{Binding Array100}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="{Binding num}" Grid.Row="{Binding num}" Grid.Column="{Binding num}"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        
+        <!--<Button>
+            <Button.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding LeftClick}" CommandParameter="0"/>
+                <MouseBinding Gesture="RightClick" Command="{Binding RightClick}" CommandParameter="0"/>
+            </Button.InputBindings>
+            <Image Source="{Binding Path = Img_uri[0]}"/>
+        </Button>
+        <Button Grid.Column="1">
+            <Button.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding LeftClick}" CommandParameter="1"/>
+                <MouseBinding Gesture="RightClick" Command="{Binding RightClick}" CommandParameter="1"/>
+            </Button.InputBindings>
+            <Image Source="{Binding Path = Img_uri[1]}"/>
+        </Button>
+        <Button Grid.Column="2">
+            <Button.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding LeftClick}" CommandParameter="2"/>
+                <MouseBinding Gesture="RightClick" Command="{Binding RightClick}" CommandParameter="2"/>
+            </Button.InputBindings>
+            <Image Source="{Binding Path = Img_uri[2]}"/>
+        </Button>-->
+        
+
+    </Grid>
+</UserControl>
