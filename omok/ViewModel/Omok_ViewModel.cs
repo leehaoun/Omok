@@ -18,8 +18,14 @@ namespace Games
     {
         public Omok_ViewModel()
         {
-            for (int i = 0; i < 100; i++)
-                array100.Add(new items(){ num=i });
+            int temp = 0;
+            for (int i = 0; i < 10; i++)
+                for (int j = 0; j < 10; j++)
+                {
+                    array100.Add(new items() {row=i, col=j, num = temp });
+                    temp++;
+
+                }
         }
 
         private ObservableCollection<items> array100 = new ObservableCollection<items>();

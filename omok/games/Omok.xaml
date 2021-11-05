@@ -35,7 +35,7 @@
                             <RowDefinition/>
                             <RowDefinition/>
                         </Grid.RowDefinitions>
-                        <TextBlock Text="{Binding num}" Grid.Row="{Binding num}" Grid.Column="{Binding num}"></TextBlock>
+                        <TextBlock Text="{Binding num}" Grid.Row="{Binding row}" Grid.Column="{Binding col}"></TextBlock>
                     </Grid>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
